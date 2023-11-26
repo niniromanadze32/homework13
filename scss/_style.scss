@@ -1,0 +1,139 @@
+.li{
+    display: inline-block;
+    margin-right: 13px;
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 35px;
+    font-family: 100% $font-stack;
+    vertical-align: middle;
+    width: 30px;
+    height: 13px;
+}
+h1{
+    font-family: $font-stack;
+    width: 300px;
+    height: 28px;
+    margin-left:75px;
+    margin-top:70px;
+    font-weight:700;
+    font-size: 28px;
+}
+.container-1{
+    @extend container;
+    
+
+}
+.container-2{
+    @extend container;
+}
+.container-3{
+    @extend container;
+}
+.box-1{
+   @include box;
+
+}
+.box-2{
+    @include box;
+}
+.box-3{
+    @include box;
+}
+.image-1{
+    @include image;
+    
+ }
+ .image-2{
+    @include image;
+ }
+.image-3{
+    @include image;
+}
+ .text {
+    position: absolute;
+    top: 33px;
+    left: 35px;
+    color: $middle-color;
+    font-size: 20px;
+    width: 184px;
+    height: 23px;
+    font-family: $font-stack;}
+header{
+    .p{
+    @extend %f-font;
+}}
+main{
+    .p{
+        @extend %f-font;
+}}
+
+.life{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 75px;
+    vertical-align: middle;
+}
+.photos{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 77px;
+    
+}
+.photo{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+footer{
+width: 1340px;
+height: 201px;
+background: #243043;
+margin-top:35px;
+position: relative
+}
+.ul-1{
+    @include theme;
+}
+.ul-2{
+    @include theme;
+}
+.ul-3{
+    @include theme;
+}
+.p{
+    display: inline-block;
+    margin-left: 700px;
+    color: $middle-color;
+    margin-top:-3px;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: $font-stack;
+    
+}
+.img{
+    margin-bottom: 57px;
+    margin-top:-80px;
+    margin-left: 1200px;
+}
+li{
+    width: 33px;
+    height: 14px;
+    color: $primary-color;
+    font-family: $font-stack;
+    margin-bottom: 13px;}
+.words{
+    position: relative;
+}
+.word{
+    position: absolute;
+    top: 200px;
+    left: 273px;
+    color: $middle-color;
+    font-size: 20px;
+    width: 730px;
+    height: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+   

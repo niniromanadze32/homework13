@@ -1,0 +1,22 @@
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #818687;
+$secondary-color:#bebcb9;
+$middle-color:white;
+
+%f-font {
+    width: 238px;
+    height: 36px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    color: #8A8787;
+    position: absolute;
+    top: 83px;
+    left: 35px;
+}
+%container{
+    width: 362px;
+  height: 171px;
+  border-radius: 0px, 0px, 5px, 5px;
+  background: #bebcb9;
+  position: relative;
+}
